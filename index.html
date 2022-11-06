@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- Custom Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Pavel Naumovic Web Dev</title>
+  </head>
+  <body>
+    <!-- Header / Nav -->
+    <section class="top">
+      <header class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-light">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#"
+                      >Home <span class="sr-only">(current)</span></a
+                    >
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#"
+                      >About <span class="sr-only">(current)</span></a
+                    >
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#"
+                      >Portfolio <span class="sr-only">(current)</span></a
+                    >
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#"
+                      >Contact <span class="sr-only">(current)</span></a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <!-- Hero -->
+      <section class="hero">
+        <div
+          class="jumbotron container d-flex flex-column align-items-center text-center"
+        >
+          <div class="my-image">
+            <img src="https://picsum.photos/id/200/200" alt="" srcset="" />
+          </div>
+          <h1 class="display-4">
+            Hello, I'm
+            <span class="my-name">Pavel Naumovic</span>.
+            <h1 class="display-4">I'm a Web Developer.</h1>
+          </h1>
+          <a class="btn btn-link btn-lg" href="#" role="button"
+            >View my work
+            <div class="arrow">&#10140;</div>
+          </a>
+        </div>
+      </section>
+    </section>
+
+    <!-- About -->
+    <section class="about">
+      <div
+        class="container-fluid d-flex flex-column align-items-center text-center"
+      >
+        <div class="row">
+          <div class="col header d-flex flex-column align-items-center">
+            <h1 class="title">ABOUT</h1>
+            <div class="header-bar"></div>
+          </div>
+        </div>
+        <div class="row bullets d-flex align-items-baseline">
+          <div
+            class="bullet-wrap col-xl-3 col-sm-12 col-md-6 d-flex flex-column align-items-center justify-content-center"
+          >
+            <div class="round d-flex align-items-center justify-content-center">
+              <img src="./images/speedometer-icon.svg" alt="" srcset="" />
+            </div>
+            <h1 class="bullet-label">Fast</h1>
+            <p>
+              Smooth and seamless page loading, lag free websites is my
+              priority.
+            </p>
+          </div>
+          <div
+            class="bullet-wrap col-xl-3 col-sm-12 col-md-6 d-flex flex-column align-items-center justify-content-center"
+          >
+            <div class="round d-flex align-items-center justify-content-center">
+              <img src="./images/desktop-mobile-icon.svg" alt="" srcset="" />
+            </div>
+            <h1 class="bullet-label">Responsive</h1>
+            <p>
+              Responsive design approach means that my layouts will look perfect
+              on any screen size.
+            </p>
+          </div>
+          <div
+            class="bullet-wrap col-xl-3 col-sm-12 col-md-6 d-flex flex-column align-items-center justify-content-center"
+          >
+            <div class="round d-flex align-items-center justify-content-center">
+              <img src="./images/bulb-icon.svg" alt="" srcset="" />
+            </div>
+            <h1 class="bullet-label">Intuitive</h1>
+            <p>
+              I always aim to create minimalistic, stylish and easy to use
+              UI/UX.
+            </p>
+          </div>
+          <div
+            class="bullet-wrap col-xl-3 col-sm-12 col-md-6 d-flex flex-column align-items-center justify-content-center"
+          >
+            <div class="round d-flex align-items-center justify-content-center">
+              <img
+                src="./images/rocket-launch-line-icon.svg"
+                alt=""
+                srcset=""
+              />
+            </div>
+            <h1 class="bullet-label">Dynamic</h1>
+            <p>
+              Dynamic websites promote a positive browsing experience and make
+              people come back again.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <h1 class="about-me">
+            I'm Front-End Develper in Bath.<br />
+            I have a passion in technology. <br />Together we can create
+            something really cool.
+          </h1>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects">
+      <div class="col header d-flex flex-column align-items-center">
+        <h1 class="title">PROJECTS</h1>
+        <div class="header-bar"></div>
+      </div>
+      <div class="projects-wrapper container-fluid">
+        <div class="row ">
+          <div
+            class="project-wrap col-xl-4 col-sm-12 col-md-4 d-flex flex-column align-items-center justify-content-center"
+          ><img src="https://picsum.photos/200/300" alt=""></div>
+          <div
+            class="project-wrap col-xl-4 col-sm-12 col-md-4 d-flex flex-column align-items-center justify-content-center"
+          ></div>
+          <div
+            class="project-wrap col-xl-4 col-sm-12 col-md-4 d-flex flex-column align-items-center justify-content-center"
+          ></div>
+        </div>
+        <div class="row ">
+          <div
+            class="project-wrap col-xl-4 col-sm-12 col-md-4 d-flex flex-column align-items-center justify-content-center"
+          ></div>
+          <div
+            class="project-wrap col-xl-4 col-sm-12 col-md-4 d-flex flex-column align-items-center justify-content-center"
+          ></div>
+          <div
+            class="project-wrap col-xl-4 col-sm-12 col-md-4 d-flex flex-column align-items-center justify-content-center"
+          ></div>
+        </div>
+        <div class="row">
+          <div
+            class="project-wrap col-xl-4 col-sm-12 col-md-4 d-flex flex-column align-items-center justify-content-center"
+          ></div>
+          <div
+            class="project-wrap col-xl-4 col-sm-12 col-md-4 d-flex flex-column align-items-center justify-content-center"
+          ></div>
+          <div
+            class="project-wrap col-xl-4 col-sm-12 col-md-4 d-flex flex-column align-items-center justify-content-center"
+          ></div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div>
+          <p>Copyright Pavel Naumovic 2022</p>
+        </div>
+      </div>
+    </footer>
+    <!-- jQuery, Bootstrap JS, Space Animation -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
